@@ -75,3 +75,29 @@ button:active{
     margin: 10px;
     
 }
+.box{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+
+}
+.box1,.box2,.box3{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.tech-list li{
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(40, 201, 53);
+}
