@@ -1,15 +1,77 @@
-div{
+/* /* div{
     border: 2px solid black;
     padding: 10px;
     margin: 5px;
     background-color: lightblue;
     font-family: Arial, sans-serif;
-    font-size: 16px;
-}
+    font-size: 16px; 
+} */
 h1{
     color: darkblue;
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
     border-style: dashed;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkgreen;
+}
+button:active{
+    background-color: lightgreen;
+}
+.Follow{
+    background-color: rgb(241, 238, 6);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Follow:hover{
+    background-color: rgb(204, 201, 5);
+}
+.Follow:active{
+    background-color: rgb(255, 255, 102);
+}
+.traffic-light{
+    height: 200px;
+    width: 70px;
+    border: solid 2px black;
+    
+
+}
+.red{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    border: 2px solid black;
+    margin: 10px;
+   
+
+}
+.yellow{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    border: 2px solid black;
+    margin: 10px;
+}
+.green{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    border: 2px solid black;
+    margin: 10px;
+    
 }
