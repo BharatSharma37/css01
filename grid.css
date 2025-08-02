@@ -1,0 +1,26 @@
+.box div{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    /* margin: 5px; */
+    justify-self: center;
+    text-align: center;
+
+
+}
+.box{
+    border: 2px solid black;
+    display: grid;
+    justify-items: center;
+    background-color:aqua ;
+    grid-template-rows: repeat(3,60px);
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 5px;
+
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1/3;
+}

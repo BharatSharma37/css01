@@ -6,14 +6,15 @@
     font-family: Arial, sans-serif;
     font-size: 16px; 
 } */
-h1{
+h1 {
     color: darkblue;
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
     border-style: dashed;
 }
-button{
+
+button {
     background-color: green;
     color: white;
     padding: 10px 15px;
@@ -21,13 +22,16 @@ button{
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: darkgreen;
 }
-button:active{
+
+button:active {
     background-color: lightgreen;
 }
-.Follow{
+
+.Follow {
     background-color: rgb(241, 238, 6);
     color: white;
     padding: 10px 15px;
@@ -35,47 +39,54 @@ button:active{
     border-radius: 5px;
     cursor: pointer;
 }
-.Follow:hover{
+
+.Follow:hover {
     background-color: rgb(204, 201, 5);
 }
-.Follow:active{
+
+.Follow:active {
     background-color: rgb(255, 255, 102);
 }
-.traffic-light{
+
+.traffic-light {
     height: 200px;
     width: 70px;
     border: solid 2px black;
-    
+
 
 }
-.red{
+
+.red {
     background-color: red;
     height: 50px;
     width: 50px;
-    border-radius:50%;
+    border-radius: 50%;
     border: 2px solid black;
     margin: 10px;
-   
+
 
 }
-.yellow{
+
+.yellow {
     background-color: yellow;
     height: 50px;
     width: 50px;
-    border-radius:50%;
+    border-radius: 50%;
     border: 2px solid black;
     margin: 10px;
 }
-.green{
+
+.green {
     background-color: green;
     height: 50px;
     width: 50px;
-    border-radius:50%;
+    border-radius: 50%;
     border: 2px solid black;
     margin: 10px;
-    
+
 }
-.box{
+
+.box {
     height: 150px;
     width: 300px;
     background-color: grey;
@@ -87,7 +98,10 @@ button:active{
     padding: 1em;
 
 }
-.box1,.box2,.box3{
+
+.box1,
+.box2,
+.box3 {
     height: 100px;
     width: 100px;
     background-color: pink;
@@ -96,8 +110,103 @@ button:active{
     display: inline-block;
 
 }
-.tech-list li{
+
+.tech-list li {
     display: inline-block;
     margin-right: 10px;
     color: rgb(40, 201, 53);
+}
+
+.transition {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: margin-top 2s ease-in 0.2s;
+    margin-top: 10px;
+    transform: rotate(45deg);
+
+}
+
+.transition:hover {
+
+    margin-top: 500px;
+    transform: rotate(-3600deg);
+    transition: transform 2s ease-in 0.2s, margin-top 2s ease-in 0.2s;
+    transform: scalex(1.5);
+
+}
+
+.o1 {
+    width: 50%;
+    ;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.o2 {
+    width: 50%;
+    background-color: rgb(240, 236, 9);
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.o3 {
+    width: 50%;
+    ;
+    background-color: rgb(125, 255, 18);
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.o3:hover {
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transform: skew(20deg) rotate(360deg);
+}
+.o4{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 0, 0);
+    background-image: url(https://cdn-1.webcatalog.io/catalog/apna-college/apna-college-social-preview.png?v=1714776932959);
+    background-size:contain;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    box-shadow: 2px 4px 18px rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+}
+.img{
+    width: 100%;
+    height: 100px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/059/070/007/non_2x/portrait-of-a-cute-boy-with-his-hands-on-his-head-on-a-yellow-background-photo.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+p{
+    padding: 10px;
+}
+p::first-letter {
+    /* This only targets the first letter of the first word */
+    font-size: 2em;
+    color: red;
+}
+
+
+
+.card:hover{
+    box-shadow: 4px 8px 36px rgb(0, 0, 0);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }

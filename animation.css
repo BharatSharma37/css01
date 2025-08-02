@@ -1,0 +1,31 @@
+.animate{
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+        animation-name: animation1;
+        animation-iteration-count: infinite;
+        animation-duration: 7s;
+        animation-direction: alternate;
+        animation-timing-function: ease-in;
+}
+@keyframes animation1 {
+    from{
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+        position: static;
+    }
+    50%{
+        margin: 200px;
+        background-color: black;
+    }
+    to{
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+        /* position: relative;
+        left: 400px; */
+        margin: 500px;
+        border-radius: 50%;
+    }
+}
